@@ -1,0 +1,83 @@
+{
+    "title" : "Sign in",
+    "description" : "Sign in to Platform",
+    "fields" : [
+        {
+            "name": "combo_box_1",
+            "label": "Select a option",
+            "description" : "Choose your option from the list.",
+            "fieldType": "ComboBox",
+            "initialValue": "opt1",
+            "options": {
+                "opt1": "Option 1",
+                "opt2": "Option 2",
+                "opt3": "Option 3",
+                "opt4": "Option 4",
+                "opt5": "Option 5",
+                "opt6": "Option 6",
+                "opt7": "Option 7",
+                "opt8": "Option 8"
+            }
+        },
+        {
+            "name": "radio_input_1",
+            "label": "Select one option in radio field",
+            "description" : "",
+            "fieldType": "Radio",
+            "options": {
+               "values" : [
+                    {
+                        "label": "Option 1",
+                        "checked": true
+                    },
+                    {
+                        "label": "Option 2",
+                        "checked": false
+                    },
+                    {
+                        "label": "Option 3",
+                        "checked": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "checkbox_1",
+            "label": "Checkbox field with multiple options",
+            "description" : "Check the options where you like",
+            "fieldType": "Checkbox",
+            "options": {
+               "values" : [
+                    {
+                        "label": "Checkbox 1",
+                        "checked": false
+                    },
+                    {
+                        "label": "Checkbox 2",
+                        "checked": false
+                    },
+                    {
+                        "label": "Checkbox 3",
+                        "checked": false
+                    },
+                    {
+                        "label": "Checkbox 4",
+                        "checked": false
+                    },
+                    {
+                        "label": "Checkbox 5",
+                        "checked": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "text_field",
+            "label": "Textfield option",
+            "description" : "Enter your text",
+            "fieldType": "TextField",
+            "placeholderText": "The text is required to continue to next step",
+            "initialValue": "This is the initial value"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "title" : "Sign in",
+    "description" : "Sign in to Platform",
+    "fields" : [
+        {
+            "name": "login",
+            "label": "Login",
+            "description" : "Set the login to continue the login",
+            "fieldType": "TextField",
+            "placeholderText": "Enter your login"
+        },
+        {
+            "name": "password1",
+            "label": "Password",
+            "description" : "Set the password to continue the login.",
+            "fieldType": "Password",
+            "placeholderText": "Enter your Password"
+        }
+    ]
+}

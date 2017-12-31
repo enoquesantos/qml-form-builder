@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+
+        <file>FormBuilderPage.qml</file>
+        <file>FieldTemplate.qml</file>
+        <file>main.qml</file>
+        <file>sample-form-data-1.json</file>
+        <file>sample-form-data-2.json</file>
+        <file>sample-form-data-3.json</file>
+
+        <file>inputs/Checkbox.qml</file>
+        <file>inputs/ComboBox.qml</file>
+        <file>inputs/Password.qml</file>
+        <file>inputs/Radio.qml</file>
+        <file>inputs/TextArea.qml</file>
+        <file>inputs/TextField.qml</file>
+    </qresource>
+</RCC>

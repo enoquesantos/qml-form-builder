@@ -1,0 +1,101 @@
+{
+    "title" : "Form title",
+    "description" : "Form description...",
+    "fields" : [
+        {
+            "name": "login",
+            "label": "Login",
+            "description" : "Enter your login",
+            "fieldType": "TextField",
+            "placeholderText": "Enter your login",
+            "initialValue": ""
+        },
+        {
+            "name": "email",
+            "label": "Email",
+            "description" : "The Email is required to continue your register.",
+            "fieldType": "TextField",
+            "placeholderText": "Enter your Email",
+            "initialValue": ""
+        },
+        {
+            "name": "password1",
+            "label": "Password",
+            "description" : "The Password is required to continue your register.",
+            "fieldType": "Password",
+            "placeholderText": "Enter your Password",
+            "initialValue": ""
+        },
+        {
+            "name": "password2",
+            "label": "Repeat the password",
+            "description" : "The Password is required to continue your register.",
+            "fieldType": "Password",
+            "placeholderText": "Repeat the Password",
+            "initialValue": ""
+        },
+        {
+            "name": "country",
+            "label": "Select your country",
+            "description" : "Choose your country from the options list.",
+            "fieldType": "ComboBox",
+            "initialValue": "jp",
+            "options": {
+                "ar": "Argentina",
+                "br": "Brazil",
+                "us": "EUA",
+                "es": "Espain",
+                "jp": "Japain",
+                "ch": "China"
+            }
+        },
+        {
+            "name": "terms_of_use",
+            "label": "Accept the terms of use",
+            "description" : "",
+            "fieldType": "Radio",
+            "options": {
+               "values" : [
+                    {
+                        "label": "Yes",
+                        "checked": true
+                    },
+                    {
+                        "label": "No",
+                        "checked": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "feeds",
+            "label": "Feeds categories",
+            "description" : "Select the initial feeds categories you like to sign",
+            "fieldType": "Checkbox",
+            "options": {
+               "values" : [
+                    {
+                        "label": "Cinema",
+                        "checked": true
+                    },
+                    {
+                        "label": "Entertainment",
+                        "checked": false
+                    },
+                    {
+                        "label": "Music",
+                        "checked": false
+                    },
+                    {
+                        "label": "Sports",
+                        "checked": false
+                    },
+                    {
+                        "label": "Policy",
+                        "checked": false
+                    }
+                ]
+            }
+        }
+    ]
+}
