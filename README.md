@@ -3,7 +3,10 @@ Create a form dynamically with QML
 
 Set a json with some properties and create a form to show as QML Page.
 
-The follow json create a form using a title, a description and a set of fields
+The follow json create a form using a title, a description and a set of fields.
+
+The fields available is: Checkbox, ComboBox, TextField, TextArea and RadioButton.
+
 
 ```
 {
@@ -115,10 +118,7 @@ The follow json create a form using a title, a description and a set of fields
 ![Image sample 1](https://github.com/joseneas/qml-form-builder/raw/master/screens/Screenshot_20171231_194241.png)
 
 
-###### The fields available is: Checkbox, ComboBox, TextField, TextArea and RadioButton.
-
-
-###### When user submit the form, you will receive a json with the form data as fieldname.value. Like this:
+###### After user submit the form, you will receive a json with the form data as fieldname.value. Like this:
 
 ```
 {
