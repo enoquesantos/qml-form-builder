@@ -6,7 +6,7 @@ ApplicationWindow {
     width: 380; height: 580
     title: qsTr("Hello World!")
 
-    property var formContent: ReadJson.readFile(":/sample-form-data-3.json")
+    property var formContent: ReadJson.readFile(":/sample-form-data-1.json")
 
     FormBuilderPage {
         id: page

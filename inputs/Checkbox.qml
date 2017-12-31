@@ -7,8 +7,6 @@ Rectangle {
     width: parent.width; height: column.implicitHeight
 
     property string name
-    property var initialValue
-
     property var optionsSelected: ({})
     onOptionsSelectedChanged: formBuilderPage.result[name] = optionsSelected
 
