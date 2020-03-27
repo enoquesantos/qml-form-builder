@@ -3,7 +3,7 @@ import QtQuick.Controls 2.2
 import QtQuick.Window 2.2
 
 ApplicationWindow {
-    visible: tru
+    visible: true
     width: Qt.platform.os === "linux" || Qt.platform.os === "osx" ? (Screen.width / 2.5) : Screen.width
     height: Qt.platform.os === "linux" || Qt.platform.os === "osx" ? (Screen.height * 0.90) : Screen.height
     title: qsTr("Hello World!")
